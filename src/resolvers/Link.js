@@ -1,5 +1,5 @@
 const postedBy = (parent, args, context) => {
-  return context.prisma.link({ id: parent.id }).postedby()
+  return context.prisma.link({ id: parent.id }).postedBy()
 }
 
 module.exports = {
